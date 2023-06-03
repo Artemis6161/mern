@@ -1,0 +1,88 @@
+.title{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   
+   
+}
+
+/* .flex-continer{
+   
+} */
+
+.text{
+    color:blue;
+text-decoration: none;
+}
+.text-item>span{
+color:gray;
+}
+.glass{
+   
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+img{
+    width: 10rem;
+    /* border-radius: 10%; */
+   padding-bottom: 2rem;
+   cursor: pointer;
+   }
+
+
+
+.signup_container{
+    margin: 1rem 3rem;
+   color: #2a2a2a;
+  
+ 
+ 
+ }
+ .signup_container form{
+    padding: 1px;
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     margin: auto;
+ }
+ .signup_container input{
+     height: 3rem;
+     padding: 0 1rem;
+     margin-bottom: 2rem;
+     border-radius: 0.3rem;
+     border: 1px solid #2a2a2a;
+ 
+ }
+
+ .signup_container button{
+     display: inline;
+     margin-bottom: 2rem;
+     margin-left: 4rem;
+ }
+ @media screen and (max-width: 850px){
+     .signup_container{
+         margin: 10rem 2rem;
+      
+      
+      }
+      .signup_container form{
+         padding-top: 2rem;
+        
+         width: 90%;
+         
+     }
+ 
+ }
+ input[type='file']{
+    display: none;
+    
+ }
